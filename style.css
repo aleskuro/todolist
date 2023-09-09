@@ -5,6 +5,11 @@ body{
 
 } 
 
+/* Initially hide the video */
+#myVideo {
+    display: none;
+}
+
 
 
 .header{
@@ -65,5 +70,70 @@ body{
     background-color: #45a049; /* Darker green color on hover */
 }
 
+/* Define styles for the input and button container */
+.input-button-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
 
+
+#task{
+    text-align: left;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    /* padding: 1mm; */
+    top: 0;
+    margin-top: 10px;
+    margin-left: 8px;
+    /* transform: translateX(-0%); */
+    width: 81%; /* Adjust the width of the typing place as needed */
+    height: 10%;
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer;
+    padding: 5px 3px;    
+}
+
+#delete{
+    background-color: #ff0000; /* Green background color */
+    color: white; /* White text color */
+    padding: 7px 20px; /* Adjust padding for button size */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    text-align: center; 
+    text-decoration: none; /* Remove underlines for links (optional) */
+    display: inline-block; /* Display as inline block to adjust width */
+    font-size: 16px; /* Adjust font size */
+    margin-left: 410px;
+    margin-top: -50px;
+    display: flex;
+}
+
+#delete:hover {
+    background-color: #7e0000; /* Darker green color on hover */
+}
+
+#clear{
+    background-color: #ff0000; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding for button size */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underlines for links (optional) */
+    /* display: inline-block; Display as inline block to adjust width */
+    display: flex;
+    margin-left: 48%;
+    margin-top: -80px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#clear:hover {
+    background-color: #7e0000; /* Darker green color on hover */
+}
 

@@ -8,11 +8,22 @@
 </head>
 <body>
     <h1 class = "header"> To Do List</h1>
+    <video id="myVideo" autoplay controls>
+        <source src="love.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="parent-container">
         <div class="square-container">
+
             <input type="text" class="typing-place" placeholder="Type here">
-            <button id="btn">Add</button>       
-        </div>
+            <button id="btn" onclick="createtask()">Add</button>   
+            <div class="taskop">        
+            </div>    
+        </div>  
+    
     </div>
+    <button id="clear" onclick="clearTasks()">Clear</button>
+    <script src="script.js"></script>
 </body>
 </html>

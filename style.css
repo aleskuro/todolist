@@ -1,0 +1,69 @@
+body{
+    background-color: #464646;
+    margin: 0;
+    padding: 0;
+
+} 
+
+
+
+.header{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    background-color: #312d2d;
+    margin: 1px;
+    padding: 20px;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Minimum viewport height */
+}   
+
+.square-container {
+    width: 480px; /* Adjust the width to create a square */
+    height: 480px; /* Same as width to create a square */
+    background-color: #161616; /* Background color for the square */
+    text-align: center; /* Optional: Center text content */
+    color: #333; /* Text color */
+}
+
+.typing-place {
+    top: 0;
+    margin-top: 5px;
+    transform: translateX(-0%);
+    width: 79%; /* Adjust the width of the typing place as needed */
+    padding: 10px; /* Optional: Add padding for better appearance */
+    border: none;
+    /* background-color: transparent; */
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    border: none; /* Remove button border */
+    border-radius: 5px;
+}
+
+
+#btn{
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Adjust padding for button size */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underlines for links (optional) */
+    display: inline-block; /* Display as inline block to adjust width */
+    font-size: 16px; /* Adjust font size */
+    margin-right: 1px;
+}
+
+#btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+
+
